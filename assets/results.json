@@ -1,0 +1,158 @@
+[
+  {
+    "backbone": "FastWAM",
+    "method": "Native",
+    "success": [
+      91.88,
+      91.78,
+      97.6,
+      49.8
+    ],
+    "average": 82.77,
+    "latency": 214.33,
+    "speedup": 1.0
+  },
+  {
+    "backbone": "FastWAM",
+    "method": "VLA-Cache",
+    "success": [
+      80.0,
+      83.2,
+      97.0,
+      48.6
+    ],
+    "average": 77.2,
+    "latency": 115.55,
+    "speedup": 1.85
+  },
+  {
+    "backbone": "FastWAM",
+    "method": "TeaCache",
+    "success": [
+      81.42,
+      90.86,
+      97.05,
+      49.2
+    ],
+    "average": 79.63,
+    "latency": 49.28,
+    "speedup": 4.35
+  },
+  {
+    "backbone": "FastWAM",
+    "method": "ToCa",
+    "success": [
+      91.35,
+      91.24,
+      94.55,
+      49.15
+    ],
+    "average": 81.57,
+    "latency": 102.66,
+    "speedup": 2.09
+  },
+  {
+    "backbone": "FastWAM",
+    "method": "BAC",
+    "success": [
+      91.67,
+      89.53,
+      97.5,
+      51.55
+    ],
+    "average": 82.56,
+    "latency": 67.14,
+    "speedup": 3.19
+  },
+  {
+    "backbone": "FastWAM",
+    "method": "Ours",
+    "success": [
+      92.04,
+      90.5,
+      97.25,
+      51.2
+    ],
+    "average": 82.75,
+    "latency": 24.09,
+    "speedup": 8.9
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "Native",
+    "success": [
+      93.64,
+      94.06,
+      99.3,
+      64.75
+    ],
+    "average": 87.94,
+    "latency": 672.83,
+    "speedup": 1.0
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "VLA-Cache",
+    "success": [
+      93.36,
+      89.94,
+      98.4,
+      62.7
+    ],
+    "average": 86.1,
+    "latency": 400.26,
+    "speedup": 1.68
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "TeaCache",
+    "success": [
+      90.42,
+      94.12,
+      98.6,
+      63.8
+    ],
+    "average": 86.74,
+    "latency": 245.99,
+    "speedup": 2.74
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "ToCa",
+    "success": [
+      93.42,
+      93.98,
+      98.1,
+      63.7
+    ],
+    "average": 87.3,
+    "latency": 440.42,
+    "speedup": 1.53
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "BAC",
+    "success": [
+      93.52,
+      91.96,
+      98.9,
+      66.7
+    ],
+    "average": 87.77,
+    "latency": 305.08,
+    "speedup": 2.21
+  },
+  {
+    "backbone": "OpenWAM",
+    "method": "Ours",
+    "success": [
+      92.78,
+      94.02,
+      99.0,
+      63.85
+    ],
+    "average": 87.41,
+    "latency": 63.09,
+    "speedup": 10.67
+  }
+]
